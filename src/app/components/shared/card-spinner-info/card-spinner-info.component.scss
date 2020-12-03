@@ -1,0 +1,48 @@
+.card-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-spinner-info {
+  display: flex;
+  background: #fff;
+  border-radius: 20px;
+  width: 48%;
+}
+
+.card-body-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 14px;
+}
+
+.img-card-info {
+  width: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.spinner-card-body {
+  width: 20px;
+}
+
+.title-spinner {
+  display: flex;
+  transform: translateY(22px);
+  border: 6px solid #faf9fd;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-valor {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 52px;
+  justify-content: center;
+  align-items: flex-start;
+}

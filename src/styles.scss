@@ -1,1 +1,193 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #f8f8fc;
+  margin: 0;
+  font-family: Open Sans, "Helvetica Neue", sans-serif;
+}
+.text-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.wi-100 {
+  width: 100%;
+}
+
+.font-12-blue {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+// ----- Font Color -----
+
+.color-blue {
+  color: #54d1ed;
+}
+
+.color-gray {
+  color: #817699;
+}
+
+.color-green {
+  color: #41cf69;
+}
+
+.color-write {
+  color: #fff;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.back-green {
+  background: #41cf69;
+}
+
+.back-green-p {
+  background: #e4ffee;
+}
+
+// ----- Font Weight 400-----
+
+.font-10-400 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.font-12-400 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+// ----- Font Weight 600-----
+
+.font-12-600 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.font-14-600 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.font-18-600 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.font-36-600 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.box-136 {
+  height: 136px;
+}
+
+// ------- title box--------
+.box-title {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-spinner.mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #54d1ed !important;
+  transform: translate(37px, -7px);
+}
+
+mat-spinner.mat-spinner.mat-progress-spinner.card-spinner.spinner-location.mat-primary.mat-progress-spinner-indeterminate-animation {
+  height: 22px !important;
+}
+
+.card-spinner {
+  border-color: #ffffff !important;
+}
+
+.item {
+  padding: 0;
+  width: 136px;
+  height: 165px;
+  padding: 9px;
+  margin-left: 30px;
+}
+
+.title-slide {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.etiqueta {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 10px;
+  border-radius: 0.25rem;
+  border-radius: 0.8em;
+  width: 35px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 15px;
+  font-weight: 100;
+  border: 1px solid #41cf69;
+}
+.spinner-slider {
+  position: relative;
+}
+
+.container-slider {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+button.btn.btn-circle {
+  border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FAF9FD;
+}
+
+.chevron-left {
+  background-image: url("./assets/img/chevron_left_24px.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 13px;
+  background-color: #fff;
+}
+
+.chevron-right {
+  background-image: url("./assets/img/chevron_right.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 13px;
+  background-color: #fff;
+}
+.spinner-slider-style.mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #54d1ed !important;
+}
+
+.btn-slider {
+  display: flex;
+  justify-content: space-around;
+}

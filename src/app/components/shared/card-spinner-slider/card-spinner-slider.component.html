@@ -1,0 +1,56 @@
+<div class="card-spinner-slider">
+  <div class="spinner-slider">
+    <div class="title-spinner-slider font-12-600 blue" style="color: #54D1ED">
+    <span>RoboAdvisor</span>
+    <span>10 Fondos</span>
+    </div>
+    <div class="circle-spinner blue" style="color: #54D1ED"></div>
+    <img class="logo-spinner-slider" src="./../../../../assets/img/robotadvisor.png" alt="">
+    <mat-progress-spinner
+    strokeWidth="strokeWidth"
+            class="spinner-slider-style"
+            value="50"
+            mode="determinate"
+            color="primary"
+            diameter="155"
+
+    ></mat-progress-spinner>
+  </div>
+  <div class="container-slider">
+    <app-carousel>
+      <ng-container *ngFor="let item of items">
+        <ng-container *carouselItem>
+          <!-- <div class="item">{{ item.title }}</div> -->
+          <div>
+
+          </div>
+          <div class="item">
+            <div class="title-slide">
+              <img
+                src="../../../../assets/img/logo.png"
+                alt=""
+                style="width: 100%;"
+              />
+              <span class="etiqueta color-white back-green">15%</span>
+            </div>
+            <div class="body-slide">
+              <span class="font-12-400 color-gray">FIC Old Mutual Efectivo</span>
+              <span class="font-12-600 color-gray">$240.000</span>
+              <span class="font-10-600 color-green">Tipo de activo</span>
+              <span class="font-12-400 color-gray">Renta fija</span>
+              <span class="font-12-400 color-gray">Depósito a la fija</span>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+    </app-carousel>
+  </div>
+  <div class="">
+    <span class="font-10-400 color-gray">
+      Tu  dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.
+    </span>
+  </div>
+
+
+
+</div>
