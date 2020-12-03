@@ -19,7 +19,7 @@ Ejecute en la consola en la ruta \nuvu `ng serve` para un servidor de desarrollo
 
 # Vista de proyecto 📈
 
-![alt text](https://github.com/jsab1992/Banco-Bogota/blob/main/src/Formulario-empleados.png?raw=true)
+![alt text](https://github.com/jsab1992/Nuvu/blob/master/src/Nuvu.png)
 
 ## Demo de la aplicación
 
