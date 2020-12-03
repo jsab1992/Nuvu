@@ -2,11 +2,15 @@ html,
 body {
   height: 100%;
 }
+
 body {
   background-color: #f8f8fc;
   margin: 0;
   font-family: Open Sans, "Helvetica Neue", sans-serif;
 }
+
+
+
 .text-start {
   display: flex;
   justify-content: flex-start;
@@ -160,9 +164,9 @@ mat-spinner.mat-spinner.mat-progress-spinner.card-spinner.spinner-location.mat-p
 
 button.btn.btn-circle {
   border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #FAF9FD;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #faf9fd;
 }
 
 .chevron-left {

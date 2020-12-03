@@ -1,6 +1,16 @@
+@media (max-width: 400px) {
+
+  .text-layer-box-dos {
+    transform: translateX(369px) !important;
+}
+
+  .text-layer-box-tres {
+    transform: translateX(732px) !important;
+  }
+}
+
 .madia-carousel {
   width: 100%;
-  background: orange;
   border-radius: 13px;
   position: relative;
   border-bottom-right-radius: 12px;
@@ -69,7 +79,7 @@ html {
 }
 .galeria label {
   display: inline-block;
-  width: 91vw;
+  width: 92vw;
   margin-right: 5vw;
 }
 img {
@@ -181,6 +191,7 @@ p label {
   cursor: pointer;
   transition: 0.4s;
   border: 0rem solid #7d87ae;
+  margin: 7px;
 }
 
 p.group-point {
